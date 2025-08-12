@@ -1,0 +1,9 @@
+metric,description,value
+participants,Number of learners,40
+hourly_rate,Average fully loaded hourly rate,60
+time_saved_per_week_hours,Avg hours saved per learner per week,1.5
+weeks_impact,Weeks impact post‑training (conservative),12
+calculated_savings,=participants*hourly_rate*time_saved_per_week_hours*weeks_impact,
+program_cost,Program cost (fill),24000
+roi,=(calculated_savings-program_cost)/program_cost,
+payback_weeks,=program_cost/(participants*hourly_rate*time_saved_per_week_hours),
