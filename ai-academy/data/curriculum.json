@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "version": "2025.08",
+    "title": "AI Academy Curriculum",
+    "audience": "Non-technical beginners"
+  },
+  "modules": [
+    {
+      "id": "start-here",
+      "title": "Start Here",
+      "subtitle": "What is AI and how does it help you today?",
+      "tags": ["AI basics", "Everyday AI", "Ethics"],
+      "lessons": [
+        {
+          "id": "what-is-ai",
+          "title": "What is AI?",
+          "duration": "6 min",
+          "contentHtml": "<p>Artificial Intelligence (AI) refers to systems that perform tasks typically requiring human intelligence, such as understanding language, recognizing images, making predictions, or generating content.</p><p>Modern AI includes large language models (LLMs) that can assist with writing, brainstorming, coding, and more. You don’t need to be technical to get value from AI.</p><ul><li>AI is a tool: start small and apply it to everyday tasks</li><li>Always verify important outputs</li><li>Protect sensitive information</li></ul>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "Which is the best description of AI?",
+                "options": [
+                  { "label": "Tools that can only follow exact instructions", "isCorrect": false },
+                  { "label": "Systems that perform tasks requiring human-like intelligence", "isCorrect": true },
+                  { "label": "A single product from one company", "isCorrect": false }
+                ]
+              },
+              {
+                "text": "Do you need to be technical to benefit from AI?",
+                "options": [
+                  { "label": "Yes, it’s only for programmers", "isCorrect": false },
+                  { "label": "No, you can use AI for everyday tasks", "isCorrect": true }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "genai-101",
+          "title": "Generative AI 101",
+          "duration": "7 min",
+          "contentHtml": "<p>Generative AI creates new content (text, images, audio) from patterns in data. Popular examples include chat assistants and image generators.</p><p>Key ideas:</p><ul><li><strong>Prompt</strong>: your instruction to the AI</li><li><strong>Context</strong>: background details or examples you supply</li><li><strong>Iteration</strong>: refining your prompt to improve results</li></ul>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "What is a prompt?",
+                "options": [
+                  { "label": "A background process", "isCorrect": false },
+                  { "label": "Your instruction or question to the AI", "isCorrect": true }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "everyday-ai",
+          "title": "Everyday AI Uses",
+          "duration": "5 min",
+          "contentHtml": "<p>Practical uses for daily life:</p><ul><li>Draft emails and summarize articles</li><li>Plan trips and compare options</li><li>Create study guides and explain concepts simply</li></ul><p>Tip: ask the AI to explain step-by-step and to cite sources when possible.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "Which is a safe way to start using AI daily?",
+                "options": [
+                  { "label": "Paste confidential data into any app", "isCorrect": false },
+                  { "label": "Summarize a public article and draft a reply", "isCorrect": true }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "ethics-safety",
+          "title": "Safety and Ethics",
+          "duration": "6 min",
+          "contentHtml": "<p>AI can make mistakes (hallucinations) and reflect biases. Always review important outputs.</p><ul><li>Do not share personal or confidential information</li><li>Verify facts using trusted sources</li><li>Use AI responsibly and fairly</li></ul>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "What should you avoid sharing with AI tools?",
+                "options": [
+                  { "label": "Personal or confidential information", "isCorrect": true },
+                  { "label": "Public news links", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prompting-basics",
+      "title": "Prompting Basics",
+      "subtitle": "Get better results with clear instructions",
+      "tags": ["Prompting", "Communication"],
+      "lessons": [
+        {
+          "id": "effective-prompts",
+          "title": "Effective Prompts",
+          "duration": "7 min",
+          "contentHtml": "<p>Structure helps: specify a role, the task, constraints, and format.</p><pre><code>Role: You are a helpful travel planner.
+Task: Create a 3-day itinerary for Tokyo focused on food.
+Constraints: Budget-friendly, kid-friendly, include transit tips.
+Format: Return a table with days and activities.</code></pre>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "Which structure improves prompts?",
+                "options": [
+                  { "label": "Role, Task, Constraints, Format", "isCorrect": true },
+                  { "label": "Random, Long, Vague, Fuzzy", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "structured-prompting",
+          "title": "Structured Prompting",
+          "duration": "6 min",
+          "contentHtml": "<p>Break down complex tasks into steps and ask the AI to think step-by-step. Provide examples of good outputs.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "What helps the AI handle complex tasks?",
+                "options": [
+                  { "label": "Step-by-step instructions and examples", "isCorrect": true },
+                  { "label": "One vague sentence", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "pitfalls",
+          "title": "Common Pitfalls",
+          "duration": "5 min",
+          "contentHtml": "<ul><li>Avoid overly broad prompts</li><li>Give context and constraints</li><li>Verify important outputs</li></ul>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "How do you reduce AI mistakes?",
+                "options": [
+                  { "label": "Provide context and verify results", "isCorrect": true },
+                  { "label": "Never check outputs", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-code-tools",
+      "title": "No‑Code AI Tools",
+      "subtitle": "Use AI without programming",
+      "tags": ["No-code", "Productivity"],
+      "lessons": [
+        {
+          "id": "chat-assistants",
+          "title": "Chat Assistants",
+          "duration": "6 min",
+          "contentHtml": "<p>Use popular chat assistants to draft, summarize, translate, and brainstorm. Start with public information and iterate.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "A good first step with a chat assistant is…",
+                "options": [
+                  { "label": "Sharing your company’s secrets", "isCorrect": false },
+                  { "label": "Summarizing a public article", "isCorrect": true }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "create-media",
+          "title": "Create Images and Audio",
+          "duration": "5 min",
+          "contentHtml": "<p>Generate images and voice drafts. Clearly describe style, subject, and constraints. Check usage rights for public sharing.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "What should you check before sharing generated media?",
+                "options": [
+                  { "label": "Usage rights and policies", "isCorrect": true },
+                  { "label": "Nothing matters", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "automations",
+          "title": "Automations",
+          "duration": "7 min",
+          "contentHtml": "<p>No-code tools can connect apps and automate tasks. Example: when an email arrives, summarize it with AI, then add action items to your notes app.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "Automations are useful for…",
+                "options": [
+                  { "label": "Connecting apps to remove repetitive work", "isCorrect": true },
+                  { "label": "Making everything manual", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rag-and-data",
+      "title": "Data and Retrieval (RAG)",
+      "subtitle": "Use your documents with AI, safely",
+      "tags": ["Data", "RAG", "Evaluation"],
+      "lessons": [
+        {
+          "id": "data-basics",
+          "title": "Data Basics",
+          "duration": "6 min",
+          "contentHtml": "<p>Good data improves AI results. Organize documents, remove sensitive content, and label versions.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "Which improves AI results?",
+                "options": [
+                  { "label": "Well-organized and relevant data", "isCorrect": true },
+                  { "label": "Random files", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "rag-no-code",
+          "title": "RAG with No‑Code",
+          "duration": "7 min",
+          "contentHtml": "<p>Retrieval-Augmented Generation (RAG) lets AI answer using your provided documents. Many tools let you upload files and chat with them.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "RAG helps by…",
+                "options": [
+                  { "label": "Grounding answers in your documents", "isCorrect": true },
+                  { "label": "Ignoring your context", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "evaluate-outputs",
+          "title": "Evaluate Outputs",
+          "duration": "6 min",
+          "contentHtml": "<p>For important work, test prompts with examples and check for accuracy, completeness, and helpfulness. Keep a prompt log.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "What should you do for critical tasks?",
+                "options": [
+                  { "label": "Evaluate and verify outputs", "isCorrect": true },
+                  { "label": "Trust the first answer", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "careers-capstone",
+      "title": "Careers & Capstone",
+      "subtitle": "Paths and a small project",
+      "tags": ["Careers", "Project"],
+      "lessons": [
+        {
+          "id": "roles-today",
+          "title": "AI in Today’s Roles",
+          "duration": "6 min",
+          "contentHtml": "<p>Common roles using AI: operations, marketing, support, HR, analysis, and more. Focus on outcomes, not tools.</p>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "What should you focus on when adopting AI?",
+                "options": [
+                  { "label": "Outcomes and value", "isCorrect": true },
+                  { "label": "Using as many tools as possible", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "capstone",
+          "title": "Capstone: Your AI Assistant",
+          "duration": "10 min",
+          "contentHtml": "<p>Build a personal AI helper for one workflow (e.g., summarizing meeting notes). Define inputs, prompt, and output format. Iterate and evaluate.</p><ol><li>Pick a workflow</li><li>Draft a structured prompt</li><li>Test with examples</li><li>Refine and document</li></ol>",
+          "quiz": {
+            "questions": [
+              {
+                "text": "What is a good capstone goal?",
+                "options": [
+                  { "label": "Automate a small workflow end-to-end", "isCorrect": true },
+                  { "label": "Learn every AI model in existence", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
