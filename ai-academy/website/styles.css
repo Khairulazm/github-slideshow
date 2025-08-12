@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: #1f2937; }
+.site-header { background: linear-gradient(135deg,#111827,#1f2937); color: #fff; padding-bottom: 32px; }
+.nav { max-width: 1000px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 16px; }
+.nav a { color: #e5e7eb; text-decoration: none; margin-left: 16px; }
+.nav a.logo { font-weight: 700; color: #fff; margin-left: 0; }
+.nav a.cta { background: #2563eb; color: #fff; padding: 8px 12px; border-radius: 8px; }
+.hero { max-width: 1000px; margin: 24px auto 0; padding: 0 16px; }
+.hero h1 { font-size: 40px; margin: 0 0 8px; }
+.hero p { opacity: .9; }
+.btn-primary { background: #2563eb; color: #fff; padding: 12px 16px; border: 0; border-radius: 10px; margin-top: 16px; cursor: pointer; }
+main { max-width: 1000px; margin: 0 auto; padding: 24px 16px; }
+.features { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 16px; margin: 24px 0; }
+.features div { background: #f9fafb; border: 1px solid #e5e7eb; padding: 16px; border-radius: 12px; }
+.cta-strip { display: flex; gap: 12px; }
+.btn-secondary { background: #111827; color: #fff; padding: 10px 14px; border-radius: 10px; text-decoration: none; }
+.site-footer { background: #111827; color: #9ca3af; text-align: center; padding: 16px; }
